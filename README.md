@@ -58,3 +58,10 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 
 <p>Il prototipo base da noi realizzato, riassume i principali flussi che gestiscono i nostri dispositivi o servizi smart secondo le regole composte tramite il chatbot, di seguito il link del <a href="https://github.com/botassistant/BotAssistant/blob/master/flows.json">JSON</a> da importare in Node-Red.</p>
 
+<p>Dopo aver importato il JSON, bisogna completarlo con l’url del webhook e alcune semplici configurazioni dei dispositivi smart a disposizione.</p>
+
+<p>Prima di procedere alle suddette configurazioni, andiamo a completare l’implementazione della piattaforma nelle parti descritte ad inizio paragrafo, ossia il webhook e il chatbot.</p>
+
+<h3>Webhook</h3>
+
+<p><h2>work in progress</h2></p>
