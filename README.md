@@ -42,15 +42,15 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 <p>Quindi per rendere funzionante BotAssistant occorre installare innanzitutto Node-Red (link per l’installazione) su un server web oppure su HUB (ad es. Raspberry PI 3), alternativamente è possibile utilizzare il servizio di hosting FRED che mette a disposizione un istanza on-line di Node-Red. Dopo l’installazione occorre implementare il nostro motore delle regole.</p>
 
 <p>Per comprendere al meglio il nostro progetto, si riporta un dizionario dei termini utilizzati tra queste righe:
-  <li><b>Trigger:</b><p>evento da rilevare, ad esempio meteo, data e ora ecc.</p></li>
+  <li><b>Trigger:</b>evento da rilevare, ad esempio meteo, data e ora ecc.</li>
   
-  <li><b>Triggerchannel:</b><p>rappresenta la modalità con cui è possibile rilevare un evento, ad esempio se l’evento da rilevare è il meteo, allora possiamo rilevarlo in questo modo “se piove”, oppure “ogni giorno” ecc.</p></li>
+  <li><b>Triggerchannel:</b>rappresenta la modalità con cui è possibile rilevare un evento, ad esempio se l’evento da rilevare è il meteo, allora possiamo rilevarlo in questo modo “se piove”, oppure “ogni giorno” ecc.</li>
   
-  <li><b>Action:</b><p>è l’azione da eseguire dopo il rilevamento dell’evento, ossia il dispositivo smart da attivare o il servizio web da richiamare.</p></li>
+  <li><b>Action:</b>è l’azione da eseguire dopo il rilevamento dell’evento, ossia il dispositivo smart da attivare o il servizio web da richiamare.</li>
   
-  <li><b>Actionchannel:</b><pcome per i trigger anche per l’action vi sono vari modi per attivare un dispositivo intelligente, ad esempio se l’action è una lampada smart, allora possiamo eseguire  “l’accensione”, “lo spegnimento”, “l’accensione con intensità al 70%” ecc.</p></li>
+  <li><b>Actionchannel:</b>come per i trigger anche per l’action vi sono vari modi per attivare un dispositivo intelligente, ad esempio se l’action è una lampada smart, allora possiamo eseguire  “l’accensione”, “lo spegnimento”, “l’accensione con intensità al 70%” ecc.</li>
   
-  <li><b>rules:</b><p>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</p></li>
+  <li><b>rules:</b>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</li>
 
 
 </p>
