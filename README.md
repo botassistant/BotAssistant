@@ -38,3 +38,20 @@ oppure:
 questa è una delle più semplici regole che si possono comporre con la piattaforma BotAssistant. Dopo l'inserimento della regola di automazione, tramite linguaggio naturale, il chatbot invia la regola al webhook PHP il quale provvede a convalidare la regola e memorizzarla nel DB.</p>
 
 <p>Terminata la fase di composizione della regola di automazione, la piattaforma rileva in autonomia gli eventi (nell’esempio precedente l’orario) ed esegue l’azione della regola composta con il chatbot (nel nostro esempio l’accensione della lampada del salotto). Il rilevamento degli eventi e l’esecuzione delle azioni avviene grazie al motore delle regole, implementato tramite Node-Red.</p>
+
+<p>Quindi per rendere funzionante BotAssistant occorre installare innanzitutto Node-Red (link per l’installazione) su un server web oppure su HUB (ad es. Raspberry PI 3), alternativamente è possibile utilizzare il servizio di hosting FRED che mette a disposizione un istanza on-line di Node-Red. Dopo l’installazione occorre implementare il nostro motore delle regole.</p>
+
+<p>Per comprendere al meglio il nostro progetto, si riporta un dizionario dei termini utilizzati tra queste righe:
+  <li><b>Trigger:</b><p>evento da rilevare, ad esempio meteo, data e ora ecc.</p></li>
+  
+  <li><b>Triggerchannel:</b><p>rappresenta la modalità con cui è possibile rilevare un evento, ad esempio se l’evento da rilevare è il meteo, allora possiamo rilevarlo in questo modo “se piove”, oppure “ogni giorno” ecc.</p></li>
+  
+  <li><b>Action:</b><p>è l’azione da eseguire dopo il rilevamento dell’evento, ossia il dispositivo smart da attivare o il servizio web da richiamare.</p></li>
+  
+  <li><b>Actionchannel:</b><pcome per i trigger anche per l’action vi sono vari modi per attivare un dispositivo intelligente, ad esempio se l’action è una lampada smart, allora possiamo eseguire  “l’accensione”, “lo spegnimento”, “l’accensione con intensità al 70%” ecc.</p></li>
+  
+  <li><b>rules:</b><p>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</p></li>
+
+
+</p>
+
