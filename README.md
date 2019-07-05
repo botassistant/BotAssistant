@@ -69,7 +69,7 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 <p>Per quanto riguarda il DB, è possibile usare lo schema SQL presente nei file, da noi messo a disposizione, quindi usare PhpMyAdmin, che generalmente viene messo a disposizione dal servizio di hosting, e  importare lo schema SQL</p>
 
 <p>Definito il webhook inseriamo l’url nel motore delle regole, come in fig. 2.<br>
-<img src="https://github.com/botassistant/BotAssistant/blob/master/fig2.PNG?raw=true" alt="fig.2">
+<img src="https://github.com/botassistant/BotAssistant/blob/master/fig2.PNG" alt="fig.2">
 </p>
 
 <h2>work in progress</h2>
