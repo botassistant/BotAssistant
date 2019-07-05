@@ -16,6 +16,6 @@ La nostra sfida è proporre una piattaforma open source che faciliti l’impleme
 
 <p>
 Per implementare BotAssistant le componenti richieste sono:
-  <li><h4>Node-Red:<h4>è uno strumento basato su Node.js, per collegare dispositivi hardware, API e servizi online, rappresenta lo strumento principale per realizzare il motore delle regole dell’automazione, per maggiori informazioni vedi qui.</li>
+  <li><b>Node-Red:<p>è uno strumento basato su Node.js, per collegare dispositivi hardware, API e servizi online, rappresenta lo strumento principale per realizzare il motore delle regole dell’automazione, per maggiori informazioni vedi qui.<p></li>
 
 </p>
