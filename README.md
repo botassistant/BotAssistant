@@ -19,10 +19,11 @@ La nostra sfida è proporre una piattaforma open source che faciliti l’impleme
   
   <li><b>DialogFlow:</b> piattaforma di Google che consente di realizzare il chatbot e di addestrarlo con molta facilità, me maggiori informazioni vedi il <a href="https://dialogflow.com/">link.</a></li><br>
   
-  <li><b>Webhook:</b> qualsiasi host PHP per implementare il codice PHP necessario per la gestione del DB e le richieste HTTP del chatbot. Host da noi usato <a href="http://altervista.org/">altervista.org.</a></li><br>
+  <li><b>Webhook:</b> qualsiasi host PHP per implementare il codice PHP necessario per la gestione del DB e le richieste HTTP del chatbot. Host da noi usato <a href="http://altervista.org/">altervista.org.</a></li><br></p>
   
-
-
+ <h3>Iniziamo</h3>
+ 
+ <p>Per capire come la piattaforma BotAssistant funziona, consideriamo il seguente schema (fig.1):
 
 
 
