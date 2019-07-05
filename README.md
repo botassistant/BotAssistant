@@ -56,5 +56,5 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
   
  <p>Per implementare il motore delle regole molto dipende dai dispositivi presenti, pertanto per facilitare la suddetta implementazione abbiamo individuato delle componenti comuni che consentono la realizzazione base del motore delle regole, come acquisire un trigger (evento), ad esempio rilevare “se oggi piove”, eseguire un action (azione), ossia “accendere la lampada del salotto”.</p>
 
-<p>Il prototipo base da noi realizzato, riassume i principali flussi che gestiscono i nostri dispositivi o servizi smart secondo le regole composte tramite il chatbot, di seguito il JSON da importare in Node-Red.</p>
+<p>Il prototipo base da noi realizzato, riassume i principali flussi che gestiscono i nostri dispositivi o servizi smart secondo le regole composte tramite il chatbot, di seguito il link del <a href="https://github.com/botassistant/BotAssistant/blob/master/flows.json">JSON</a> da importare in Node-Red.</p>
 
