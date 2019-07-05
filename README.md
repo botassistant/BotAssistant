@@ -66,4 +66,8 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 
 <p>Per installare il webhook, come già accennato, occorre un servizio di hosting PHP e importare la cartella BotAssistant, in cui è presente il codice per la gestione delle richieste HTTP del chatbot (<a href="https://github.com/botassistant/BotAssistant/blob/master/webhook.php">webhook.php</a>) e i codici sorgenti per la gestione del DB (<a href="https://github.com/botassistant/BotAssistant/blob/master/response_GET.php">response_GET.php</a>).</p>
 
+<p>Per quanto riguarda il DB, è possibile usare lo schema SQL presente nei file, da noi messo a disposizione, quindi usare PhpMyAdmin, che generalmente viene messo a disposizione dal servizio di hosting, e  importare lo schema SQL</p>
+
+<p>Definito il webhook inseriamo l’url nel motore delle regole, come in fig. 2.</p>
+
 <h2>work in progress</h2>
