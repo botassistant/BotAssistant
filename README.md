@@ -50,7 +50,7 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
   
   <li><b>Actionchannel:</b>come per i trigger anche per l’action vi sono vari modi per attivare un dispositivo intelligente, ad esempio se l’action è una lampada smart, allora possiamo eseguire  “l’accensione”, “lo spegnimento”, “l’accensione con intensità al 70%” ecc.</li><br>
   
-  <li><b>rules:</b>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</li><br></p>
+  <li><b>Rules:</b>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</li><br></p>
   
  <h3>Node-Red</h3>
   
