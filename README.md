@@ -50,8 +50,11 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
   
   <li><b>Actionchannel:</b>come per i trigger anche per l’action vi sono vari modi per attivare un dispositivo intelligente, ad esempio se l’action è una lampada smart, allora possiamo eseguire  “l’accensione”, “lo spegnimento”, “l’accensione con intensità al 70%” ecc.</li><br>
   
-  <li><b>rules:</b>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</li><br>
+  <li><b>rules:</b>rappresentano l’automazione che i nostri dispositivi e servizi smart devono eseguire.</li><br></p>
+  
+ <h3>Node-Red</h3>
+  
+ <p>Per implementare il motore delle regole molto dipende dai dispositivi presenti, pertanto per facilitare la suddetta implementazione abbiamo individuato delle componenti comuni che consentono la realizzazione base del motore delle regole, come acquisire un trigger (evento), ad esempio rilevare “se oggi piove”, eseguire un action (azione), ossia “accendere la lampada del salotto”.</p>
 
-
-</p>
+<p>Il prototipo base da noi realizzato, riassume i principali flussi che gestiscono i nostri dispositivi o servizi smart secondo le regole composte tramite il chatbot, di seguito il JSON da importare in Node-Red.</p>
 
