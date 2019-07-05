@@ -64,4 +64,6 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 
 <h3>Webhook</h3>
 
-<p><h2>work in progress</h2></p>
+<p>Per installare il webhook, come già accennato, occorre un servizio di hosting PHP e importare la cartella BotAssistant, in cui è presente il codice per la gestione delle richieste HTTP del chatbot (<a href="#">webhook.php</a>) e i codici per la gestione del DB (XXXXX.php, YYYYY.php).</p>
+
+<h2>work in progress</h2>
