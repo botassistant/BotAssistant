@@ -11,3 +11,11 @@ Chatbot per la programmazione degli oggetti smart
 
 La nostra sfida è proporre una piattaforma open source che faciliti l’implementazione delle automazioni e soprattutto ridurre il gap tecnologico tra mondo IoT e utenti finali, augurandoci soprattutto che tale piattaforma possa facilitare la realizzazione delle automazioni a supporto di utenti diversamente abili.
 </p>
+
+<h3>Componenti software</h3>
+
+<p>
+Per implementare BotAssistant le componenti richieste sono:
+  <li><h4>Node-Red:<h4>è uno strumento basato su Node.js, per collegare dispositivi hardware, API e servizi online, rappresenta lo strumento principale per realizzare il motore delle regole dell’automazione, per maggiori informazioni vedi qui.</li>
+
+</p>
