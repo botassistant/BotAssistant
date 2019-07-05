@@ -27,4 +27,8 @@ La nostra sfida è proporre una piattaforma open source che faciliti l’impleme
 
 <img src="https://github.com/botassistant/BotAssistant/blob/master/fig1.PNG?raw=true" alt="fig.1">
 
+Tramite il chatbot, l’utente finale, esprime in linguaggio naturale le regole che i propri dispositivi smart devono rispettare, per realizzare l’automazione voluta, ad esempio esprime la volontà che ogni giorno alle 15:00 si deve accendere la lampada del salotto:
+
+<i>“se sono le 15:00 allora accendi la lampada del salotto”</i>
+
 </p>
