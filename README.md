@@ -25,6 +25,6 @@ La nostra sfida è proporre una piattaforma open source che faciliti l’impleme
  
  <p>Per capire come la piattaforma BotAssistant funziona, consideriamo il seguente schema (fig.1):
 
-<img src="smiley.gif" alt="fig.1">
+<img src="https://github.com/botassistant/BotAssistant/blob/master/fig1.PNG?raw=true" alt="fig.1">
 
 </p>
