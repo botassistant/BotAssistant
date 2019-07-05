@@ -1,5 +1,5 @@
 # BotAssistant
-Chatbot per la programmazione degli oggetti smart.
+Il chatbot per la programmazione degli oggetti smart.
 
 <h3>Intro</h3>
 
