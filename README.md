@@ -31,4 +31,10 @@ Tramite il chatbot, l’utente finale, esprime in linguaggio naturale le regole 
 
 <i>“se sono le 15:00 allora accendi la lampada del salotto”</i>
 
-</p>
+oppure:
+
+<i>“ogni giorno alle 15:00 accendi la lampada del salotto”</i>
+
+questa è una delle più semplici regole che si possono comporre con la piattaforma BotAssistant. Dopo l'inserimento della regola di automazione, tramite linguaggio naturale, il chatbot invia la regola al webhook PHP il quale provvede a convalidare la regola e memorizzarla nel DB.</p>
+
+<p>Terminata la fase di composizione della regola di automazione, la piattaforma rileva in autonomia gli eventi (nell’esempio precedente l’orario) ed esegue l’azione della regola composta con il chatbot (nel nostro esempio l’accensione della lampada del salotto). Il rilevamento degli eventi e l’esecuzione delle azioni avviene grazie al motore delle regole, implementato tramite Node-Red.</p>
