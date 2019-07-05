@@ -16,6 +16,9 @@ La nostra sfida è proporre una piattaforma open source che faciliti l’impleme
 
 <p>Per implementare BotAssistant le componenti richieste sono:
   <li><b>Node-Red:</b> è uno strumento basato su Node.js, per collegare dispositivi hardware, API e servizi online, rappresenta lo   strumento principale per realizzare il motore delle regole dell’automazione, per maggiori informazioni vedi <a href="https://nodered.org/">qui.</a></li>
+  
+  <li><b>DialogFlow:</b> piattaforma di Google che consente di realizzare il chatbot e di addestrarlo con molta facilità, me maggiori informazioni vedi il <a href="https://dialogflow.com/">link.</a></li>
+  
 
 
 
