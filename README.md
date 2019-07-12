@@ -82,8 +82,8 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 
 <p>Dopo l’installazione dei nodi IFTTT, procediamo come segue:<p>
   <li>realizzare un trigger <i>every day at 15:00</i> in IFTTT con il componente webhook, mettendo come url http//www.miosito/everyDayAt1530, ossia il nodo in node-red che riceve la richiesta http dal trigger.</li>
+  <br>
   <li>realizzare un action in IFTTT con il componente webhook</li>
-  <li></li>
 
 
 <h2>work in progress</h2>
