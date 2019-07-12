@@ -102,6 +102,10 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
   <li><b>actionchannel:</b> invio messaggio</li>
 </p>
 
+<h3>Composizione delle regole</h3>
+<p>Completata l’implementazione del motore delle regole, del webhook e del chatbot, abbiamo la piattaforma BotAssistant completa, quindi possiamo iniziare a creare le nostre prime regole.</p>
+
+<p>andando nella piattaforma DialogFlow, aprima la console del nostro Agent e dall’area web “Integrazione”, selezioniamo Web Demo (fig.3) e Ottenendo il link per aprire l’interfaccia del nostro chatbot (fig.4)</p>
 
 
 
