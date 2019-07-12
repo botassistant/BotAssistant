@@ -105,7 +105,9 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 <h3>Composizione delle regole</h3>
 <p>Completata l’implementazione del motore delle regole, del webhook e del chatbot, abbiamo la piattaforma BotAssistant completa, quindi possiamo iniziare a creare le nostre prime regole.</p>
 
-<p>andando nella piattaforma DialogFlow, aprima la console del nostro Agent e dall’area web “Integrazione”, selezioniamo Web Demo (<a href="https://github.com/botassistant/BotAssistant/blob/master/fig_3.PNG">fig.3</a>) e Ottenendo il link (<a href="https://github.com/botassistant/BotAssistant/blob/master/fig_4.PNG">fig.4</a>) per aprire l’interfaccia del nostro chatbot (<a href="https://github.com/botassistant/BotAssistant/blob/master/fig__5.png">fig.5</a>) </p>
+<p>andando nella piattaforma DialogFlow, aprima la console del nostro Agent e dall’area web “Integrazione”, selezioniamo Web Demo (<a href="https://github.com/botassistant/BotAssistant/blob/master/fig_3.PNG">fig.3</a>) e Ottenendo il link (<a href="https://github.com/botassistant/BotAssistant/blob/master/fig_4.PNG">fig.4</a>) per aprire l’interfaccia del nostro chatbot (<a href="https://github.com/botassistant/BotAssistant/blob/master/fig__5.png">fig.5</a>)</p>
+
+<p>Ottenuta tale interfaccia e sfruttando i dati di addestramento del chatbot così implementato da noi, procediamo con la realizzazione della nostra prima regola:</p>
 
 
 
