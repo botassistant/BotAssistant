@@ -73,29 +73,37 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 <p>Per completare la piattaforma BotAssistant, rimane da implementare il chatbot.</p>
 
 <h3>Chatbot</h3>
-<p>La piattaforma utilizzata per la realizzazione del chatbot è <a href="https://dialogflow.com/">DialogFlow</a>, per realizzare il chatbot adatto ai nostri scopi, sono state utilizzate le linee guida messe a disposizione dalla stessa piattaforma DialoFlow, pertanto è stato realizzato:<p>
+<p>La piattaforma utilizzata per la realizzazione del chatbot è <a href="https://dialogflow.com/">DialogFlow</a>, per realizzare il chatbot adatto ai nostri scopi, sono state utilizzate le linee guida messe a disposizione dalla stessa piattaforma DialoFlow, pertanto è stato realizzato:
   <li>Agent (linee guida <a href="https://dialogflow.com/docs/getting-started/first-agent">link</a>);</li>
   <li>Entities (linee guida <a href="https://dialogflow.com/docs/entities">link</a>);</li>
   <li>Intent (linee guida <a href="https://dialogflow.com/docs/intents">link</a>);</li>
-  <li>Collegamento al webhook (linee guida <a href="https://dialogflow.com/docs/fulfillment/configure">link</a>);</li>
+  <li>Collegamento al webhook (linee guida <a href="https://dialogflow.com/docs/fulfillment/configure">link</a>);</li></p>
+
 <p>Dopo aver eseguito l’importazione dell’Agent, l'implementazione del webhook con il DB e del motore delle regole (almeno nella nostra versione base), si procede con la fase di configurazione dei dispositivi smart o/e servizi web nella piattaforma BotAssistant. Per raggiungere questo obiettivo in modo semplice e veloce, abbiamo fatto uso della piattaforma di automazione <a href="https://ifttt.com/">IFTTT</a>. Node-Red mette a disposizione dei nodi per IFTTT (<a href="https://flows.nodered.org/node/node-red-contrib-ifttt">link</a>), pertanto installiamo questi nella nostra istanza di Node-Red.</p>
 
 <p>Dopo l’installazione dei nodi IFTTT, procediamo come segue:
   <li>realizzare un trigger <i>every day at 15:00</i> in IFTTT con il componente webhook, mettendo come url http//www.miosito/everyDayAt1530, ossia il nodo in node-red che riceve la richiesta http dal trigger.</li>
   <br>
-  <li>realizzare un action in IFTTT con il componente webhook.</li></p>
+  <li>realizzare un action in IFTTT con il componente webhook.</li>
+</p>
 
 <p>Effettuando i precedenti passaggi dabbiamo implementato:
 
-<li><b>trigger:</b> Data e Ora</li>
-<li><b>triggerchannel:</b> ogni giorno alle 15:00</li>
-<li><b>action:</b> lampada del salotto</li>
-<li><b>actionchannel:</b> accensione lampada del salotto</li></p>
+  <li><b>trigger:</b> Data e Ora</li>
+  <li><b>triggerchannel:</b> ogni giorno alle 15:00</li>
+  <li><b>action:</b> lampada del salotto</li>
+  <li><b>actionchannel:</b> accensione lampada del salotto</li>
+</p>
 
-<p>per rendere più completo la nostra guida ripetiamo i precedenti passaggi per realizzare i nuovi trigger e action:</p>
+<p>per rendere più completo la nostra guida ripetiamo i precedenti passaggi per realizzare i nuovi trigger e action:
+  <li><b>trigger:</b> meteo</li>
+  <li><b>triggerchannel:</b> rileva se piove</li>
+  <li><b>action:</b> Telegram</li>
+  <li><b>actionchannel:</b> invio messaggio</li>
+</p>
 
 
 
-<li><b></b></li>
+
 
 <h2>work in progress</h2>
