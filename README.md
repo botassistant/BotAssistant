@@ -72,5 +72,12 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
 
 <p>Per completare la piattaforma BotAssistant, rimane da implementare il chatbot.</p>
 
+<h3>Chatbot</h3>
+<p>La piattaforma utilizzata per la realizzazione del chatbot è <a href="https://dialogflow.com/">DialogFlow</a>, per realizzare il chatbot adatto ai nostri scopi, sono state utilizzate le linee guida messe a disposizione dalla stessa piattaforma DialoFlow, pertanto è stato realizzato:<p>
+  <li>Agent (linee guida <a href="https://dialogflow.com/docs/getting-started/first-agent">link</a>);</li>
+  <li>Entities (linee guida <a href="https://dialogflow.com/docs/entities">link</a>);</li>
+  <li>Intent (linee guida <a href="https://dialogflow.com/docs/intents">link</a>);</li>
+  <li>Collegamento al webhook (linee guida <a href="https://dialogflow.com/docs/fulfillment/configure">link</a>);</li>
+
 
 <h2>work in progress</h2>
