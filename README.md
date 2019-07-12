@@ -86,10 +86,14 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
   <li>realizzare un action in IFTTT con il componente webhook.</li>
 
 <p>Effettuando i precedenti passaggi dabbiamo implementato:</p>
+
 <li><b>trigger:</b> Data e Ora</li>
 <li><b>triggerchannel:</b> ogni giorno alle 15:00</li>
 <li><b>action:</b> lampada del salotto</li>
 <li><b>actionchannel:</b> accensione lampada del salotto</li>
+
+<p>per rendere più completo la nostra guida ripetiamo i precedenti passaggi per realizzare i nuovi trigger e action:</p>
+
 
 
 <li><b></b></li>
