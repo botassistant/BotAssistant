@@ -78,7 +78,7 @@ questa è una delle più semplici regole che si possono comporre con la piattafo
   <li>Entities (linee guida <a href="https://dialogflow.com/docs/entities">link</a>);</li>
   <li>Intent (linee guida <a href="https://dialogflow.com/docs/intents">link</a>);</li>
   <li>Collegamento al webhook (linee guida <a href="https://dialogflow.com/docs/fulfillment/configure">link</a>);</li>
-<p>Dopo aver eseguito l’importazione dell’Agent, l'implementazione del webhook con il DB e del motore delle regole (almeno nella nostra versione base), si procede con la fase di configurazione dei dispositivi smart o/e servizi web nella piattaforma BotAssistant. Per raggiungere questo obiettivo in modo semplice e veloce, abbiamo fatto uso della piattaforma di automazione IFTTT. Node-Red mette a disposizione dei nodi per IFTTT (link), pertanto installiamo questi nella nostra istanza di Node-Red.</p>
+<p>Dopo aver eseguito l’importazione dell’Agent, l'implementazione del webhook con il DB e del motore delle regole (almeno nella nostra versione base), si procede con la fase di configurazione dei dispositivi smart o/e servizi web nella piattaforma BotAssistant. Per raggiungere questo obiettivo in modo semplice e veloce, abbiamo fatto uso della piattaforma di automazione <a href="https://ifttt.com/">IFTTT</a>. Node-Red mette a disposizione dei nodi per IFTTT (<a href="https://flows.nodered.org/node/node-red-contrib-ifttt">link</a>), pertanto installiamo questi nella nostra istanza di Node-Red.</p>
 
 <p>Dopo l’installazione dei nodi IFTTT, procediamo come segue:<p>
 
